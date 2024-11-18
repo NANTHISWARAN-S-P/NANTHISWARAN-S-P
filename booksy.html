@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksy</title>
+    <link rel="stylesheet" href="booksy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=books_movies_and_music" />
+</head>
+
+<body>
+    <div class="nav">
+
+        <span class="material-symbols-outlined" id="icon">
+            books_movies_and_music
+        </span>
+        <h1>Booksy...</h1>
+
+    </div>
+    <div class="containers">
+        <div class="book-container">
+            <h2>The Secret</h2>
+            <h4>Rhonda Bysne</h4>
+            <p>May the Secret bring you love and joy for your entire existence.
+                That is my instention for you, and for the world.
+            </p>
+            <button onclick="remove(event)">Delete</button>
+        </div>
+
+    </div>
+    <div class="popup-bg"></div>
+    <div class="popup-container">
+        <h2>Add Book</h2>
+        <input type="" placeholder="Book Title" id="book-title">
+        <input type="" placeholder="Book Author" id="book-author">
+        <textarea name="" placeholder="Short Description.." id="text"></textarea>
+        <button id="create">Add</button>
+        <button id="cancel">Cancel</button>
+    </div>
+    <button id="add">+</button>
+    <script src="booksy.js"></script>
+</body>
+
+</html>
